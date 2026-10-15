@@ -1,12 +1,10 @@
-// Online C++ compiler (editor)
-// Write and run C++ online using this editor.
+
 
 #include <iostream>
 #include <string>
 #include <windows.h> // 1. Tambahkan header windows
 using namespace std;
 int main() {
-    // Write C++ code here
     // 2. Set terminal agar membaca output UTF-8
     SetConsoleOutputCP(CP_UTF8);
     
