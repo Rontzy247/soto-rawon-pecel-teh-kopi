@@ -2,9 +2,13 @@
 // Write and run C++ online using this editor.
 
 #include <iostream>
+#include <string>
+#include <windows.h> // 1. Tambahkan header windows
 using namespace std;
 int main() {
     // Write C++ code here
+    // 2. Set terminal agar membaca output UTF-8
+    SetConsoleOutputCP(CP_UTF8);
     string menu[5]={"soto","rawon","pecel","es teh","kopi"};
     string ulang;
     int harga[5]={15000,20000,10000,3000,5000};
