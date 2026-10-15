@@ -18,14 +18,14 @@ int main() {
     int all;
 
      for (t=0; t<1; t++) {
-         cout<< "═════════ 𝗠𝗘𝗡𝗨 𝗠𝗔𝗞𝗔𝗡𝗔𝗡 ═════════"<<endl;
+         cout<< "═════════ MENU MAKANAN ═════════"<<endl;
          cout<< "1 ";
          cout<< menu[0]<<endl;
          cout<< "2 ";
          cout<< menu[1]<<endl;
           cout<< "3 ";
          cout<< menu[2]<<endl;
-         cout<< "═════════ 𝗠𝗘𝗡𝗨 𝗠𝗜𝗡𝗨𝗠𝗔𝗡 ═════════"<<endl;
+         cout<< "═════════ MENU MINUMAN ═════════"<<endl;
          cout<<"4 ";
          cout<< menu[3]<<endl;
          cout<<"5 ";
