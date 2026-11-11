@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <string>
 #include <windows.h> // 1. Tambahkan header windows
@@ -21,7 +20,7 @@ int main() {
          cout<< menu[0]<<endl;
          cout<< "2 ";
          cout<< menu[1]<<endl;
-          cout<< "3 ";
+         cout<< "3 ";
          cout<< menu[2]<<endl;
          cout<< "═════════ MENU MINUMAN ═════════"<<endl;
          cout<<"4 ";
@@ -81,6 +80,14 @@ int main() {
        total[4]=harga[4]*porsi[4];
        cout<< "Totalnya: ";
        cout<< total[4]<<endl;
+
+       // Bagian yang ditambahkan
+       all = total[0] + total[1] + total[2] + total[3] + total[4];
+       cout<< "═════════ DETAIL PESANAN ═════════"<<endl;
+       cout<< "Total Keseluruhan: ";
+       cout<< all<<endl;
+       cout<< "══════════════════════════════════"<<endl;
+
        cout<< "Apakah Anda Mau Pesan Lagi Tekan b/B: ";
        cin>> ulang;
         }
