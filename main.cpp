@@ -62,7 +62,6 @@ int main() {
        cout<< "Totalnya: ";
        cout<< total[2]<<endl;
        cout<< "◼◻◼◻◼◻◼◻◼◻◼◻◼◻◼◻◼◻◼◻◼"<<endl;
-       cout<< "═════════ 𝗠𝗘𝗡𝗨 𝗠𝗜𝗡𝗨𝗠𝗔𝗡 ═════════"<<endl;
        cout<< "Menu ";
        cout<< menu[3]<<endl;
        cout<<"Harga ";
