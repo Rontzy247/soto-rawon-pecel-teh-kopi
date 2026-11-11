@@ -1,5 +1,4 @@
 
-
 #include <iostream>
 #include <string>
 #include <windows.h> // 1. Tambahkan header windows
@@ -87,12 +86,8 @@ int main() {
        cin>> ulang;
         }
                while(ulang=="belilagi" || ulang=="BELILAGI" );
-               system("pause");
-        
-         
-       
     
-
+     system("pause");
     return 0;
     
     
