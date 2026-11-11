@@ -84,7 +84,7 @@ int main() {
        cout<< "Apakah Anda Mau Pesan Lagi Tekan b/B: ";
        cin>> ulang;
         }
-               while(ulang=="belilagi" || ulang=="BELILAGI" );
+               while(ulang=="b" || ulang=="B" );
     
      system("pause");
     return 0;
