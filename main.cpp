@@ -88,10 +88,10 @@ int main() {
        cout<< all<<endl;
        cout<< "══════════════════════════════════"<<endl;
 
-       cout<< "Apakah Anda Mau Pesan Lagi Tekan b/B: ";
+       cout<< "Apakah Anda Mau Pesan Lagi Tekan y/Y: ";
        cin>> ulang;
         }
-               while(ulang=="b" || ulang=="B" );
+               while(ulang=="y" || ulang=="Y" );
     
      system("pause");
     return 0;
