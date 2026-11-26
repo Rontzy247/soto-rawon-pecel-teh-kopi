@@ -60,4 +60,3 @@ int main() {
     
 }
 
-Yang dibagian dalam do itu kan panjang ya apakah bisa itu lebih dipersingkat
